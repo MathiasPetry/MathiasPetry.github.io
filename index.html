@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de IMC</h1>
+        <p> O índice de massa corporal (IMC) ideal é entre 18,5 e 24,9. Esse valor indica que a pessoa está com um peso saudável e com menor risco de desenvolver algumas doenças.
+        </p> 
+        <form>
+            <label for="peso">Peso (kg):</label>
+            <input type="number" id="peso" name="peso" step="0.1" required><br><br>
+
+            <label for="altura">Altura (m):</label>
+            <input type="number" id="altura" name="altura" step="0.01" required><br><br>
+
+            <button type="button" id="calcular">Calcular IMC</button>
+        </form>
+        <p id="resultado"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
